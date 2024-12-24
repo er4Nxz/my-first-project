@@ -1,0 +1,363 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  direction: rtl;
+}
+/* header abi rang */
+.head {
+  width: 100%;
+  height: 40px;
+  background-color: #024ca1;
+  position: relative;
+  direction: ltr;
+}
+.head-op {
+  margin-left: 300px;
+  margin-right: 50px;
+  width: 500px;
+  position: absolute;
+  height: 100%;
+}
+.search {
+  width: 45px;
+  height: 40px;
+  position: absolute;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-right: 9px;
+}
+.lang {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  margin-left: 45px;
+  top: 5px;
+  background-color: #024ca1;
+  border: none;
+  color: white;
+  text-align: center;
+}
+.insta {
+  position: absolute;
+  margin-left: 110px;
+  border-left: 1px solid white;
+  height: 100%;
+  border-right: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.facebook {
+  position: absolute;
+  margin-left: 170px;
+  height: 100%;
+  border-right: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* list ha */
+.side-bar {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: relative;
+}
+.logo {
+  width: 120px;
+  position: absolute;
+  right: 200px;
+  top: 10px;
+}
+.text-bar {
+  width: 1200px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  right: 370px;
+}
+.text {
+  text-decoration: none;
+  float: right;
+  font-size: 15px;
+  color: black;
+  margin-top: 40px;
+  margin-left: 40px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.text:hover {
+  color: #3d90f0;
+}
+/* aks vasat */
+.aks-tabligh {
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+}
+.gra {
+  width: 100%;
+  height: 750px;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+  transition: all ease 0.7s;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+}
+.gra:hover {
+  opacity: 0;
+}
+/* text akhbar va roydad */
+.akhbar {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+.akhbar .div {
+  position: relative;
+  width: 100%;
+  height: 130px;
+}
+.text2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.akhbar .khat {
+  background-color: #94b3d7;
+  height: 2px;
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+/* akhbar va roydad aks va neveshte */
+.roydad {
+  background-color: blue;
+  width: 100%;
+  height: 1100px;
+  direction: rtl;
+}
+.roydad .div1 {
+  float: right;
+  width: 25%;
+  height: 50%;
+  background-color: #226fbf;
+}
+.roydad div img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.3s;
+  z-index: 0;
+}
+.roydad div img:hover {
+  transform: scale(1.1, 1.1);
+}
+.roydad a:hover {
+  color: #ccf4fe;
+}
+.div-text {
+  height: 480px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+.div-text a {
+  margin: 0px 0px 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.div-text p {
+  top: 40px;
+  color: rgb(204, 244, 254);
+  font-size: 14px;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  right: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 500;
+}
+.khat {
+  margin-top: 20px;
+  width: 70px;
+  height: 1px;
+  background-color: white;
+}
+.footer h5 {
+  display: inline;
+  color: white;
+  font-weight: 400;
+  font-size: medium;
+  padding-right: 40px;
+  border-top: 1px solid white;
+}
+/* text sherkat haye zir majmoe */
+.box-text {
+  width: 100%;
+  height: 146px;
+  padding: 32px 0px;
+  z-index: 11;
+}
+.box-text p {
+  text-align: center;
+  color: rgb(72, 71, 71);
+  font-weight: 600;
+  font-size: large;
+}
+.box-text a {
+  margin-top: 32px;
+  color: rgb(72, 71, 71);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  transition: 0.5s;
+}
+.box-text a:hover {
+  color: #3d90f0;
+}
+/* etelat pakhsh */
+.div-asli {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+.iran {
+  width: 38%;
+  height: inherit;
+  background-image: url("/public/img/بک\ طرح\ دار\ ابی.jpg");
+  display: inline-block;
+  float: right;
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 100%;
+      width: fit-content;
+    }
+}
+.mashin {
+  float: right;
+  width: 62%;
+  height: 450px;
+}
+.karkhone {
+  width: 100%;
+  height: 205px;
+  background: url("/public/img/کارخونه.png");
+}
+.karkhone div {
+  width: 25%;
+  height: inherit;
+  float: right;
+  padding-top: 66px;
+  text-align: center;
+}
+.karkhone div h4 {
+  color: #f42729;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.karkhone div p {
+  font-size: 16px;
+  color: white;
+
+  font-weight: 500;
+}
+/* footer  */
+footer {
+  width: 100%;
+  height: 182px;
+  padding: 40px 300px 40px 0px;
+}
+.content-footer {
+  width: auto;
+  height: 102px;
+}
+/* list footer  */
+.content-footer ul {
+  width: 100px;
+  float: right;
+  margin-left: 200px;
+}
+.content-footer li {
+  color: #959aa0;
+  direction: rtl;
+  text-align: right;
+  font-size: small;
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+.content-footer a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.content-footer li:hover {
+  color: #226fbf;
+  transform: translateX(-10px);
+}
+/* ertebat ba ma  */
+.ertebat {
+  width: 240px;
+  height: 100%;
+  float: right;
+  margin-left: 200px;
+}
+.ertebat p {
+  color: #0067b3;
+  font-weight: 500;
+  position: relative;
+  left: 50px;
+  margin-bottom: 30px;
+}
+.ertebat img {
+  float: right;
+  margin-left: 35px;
+  margin-right: 10px;
+}
+/* email */
+.ozv {
+  float: right;
+  height: 100%;
+  width: 600px;
+}
+.ozv p {
+  color: #0067b3;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: right;
+}
+.ozv div {
+  border-radius: 20px;
+  border: 1px solid rgba(72, 71, 71, 0.2);
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+  direction: rtl;
+}
+.ozv .email {
+  border: none;
+  height: 100%;
+  font-weight: 500;
+  padding: 0px 10px;
+  width: 80%;
+  outline: none;
+}
+.ozv .ozviat {
+  border-radius: 20px;
+  border: none;
+  background-color: #c7cbd1;
+  color: white;
+  font-weight: 500;
+  width: 100px;
+  height: 25px;
+  float: left;
+}
