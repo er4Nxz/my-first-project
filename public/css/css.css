@@ -233,7 +233,7 @@ body {
 .iran {
   width: 38%;
   height: inherit;
-  background-image: url("/public/img/بک\ طرح\ دار\ ابی.jpg");
+  background-image: url("./public/img/بک\ طرح\ دار\ ابی.jpg");
   display: inline-block;
   float: right;
     img {
@@ -251,7 +251,7 @@ body {
 .karkhone {
   width: 100%;
   height: 205px;
-  background: url("/public/img/کارخونه.png");
+  background: url("./public/img/کارخونه.png");
 }
 .karkhone div {
   width: 25%;
